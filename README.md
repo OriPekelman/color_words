@@ -1,6 +1,12 @@
 # ColorWords
 
-TODO: Write a gem description
+Takes an image file and returns a list of words that describe the dominant colors so..
+
+    ColorWords::dominant_colors_names("image.png")
+
+will return:
+
+    ["dark plum", "dark blue", "tiffany blue", "burnt red", "lime yellow"]
 
 ## Installation
 
@@ -20,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+This could be useful for indexing images and being able to search by color or group together images by color ressemblance.
 
 ## Contributing
 
